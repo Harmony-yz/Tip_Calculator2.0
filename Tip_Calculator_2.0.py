@@ -1,5 +1,8 @@
 bill = float(input("Enter meal amt: "))
 total_ppl_splitting = int(input("How many people are splitting the bill?: "))
+bill, total_ppl_splitting = 2000, 8
+result = bill/total_ppl_splitting
+print(result)
 tip = int(input("Enter tip in percentage: "))
 tax = .1
 # total tip
